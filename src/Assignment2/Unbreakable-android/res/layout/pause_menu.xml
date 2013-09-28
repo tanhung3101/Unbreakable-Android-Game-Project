@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pause_menu" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnResume"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:background="@null"
+            android:text="@string/btnRestart"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnResume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:text="@string/btnResume"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnRestart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:background="@null"
+            android:text="@string/btnOptions"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnOptions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:background="@null"
+            android:text="@string/btnExitToMenu"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

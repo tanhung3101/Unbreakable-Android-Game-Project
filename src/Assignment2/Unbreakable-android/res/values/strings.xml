@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unbreakable</string>
+    <string name="btnStartGame">Start Game</string>
+    <string name="btnOptions">Options</string>
+    <string name="btnHighscores">Highscore</string>
+    <string name="btnQuit">Quit Game</string>
+    <string name="btnResume">Resume</string>
+    <string name="btnRestart">Restart Level</string>
+    <string name="btnExitToMenu">Exit</string>
+    <string name="playerName">Player Name</string>
+    <string name="soundOn">Sound On</string>
+    <string name="vibrationOn">Vibration On</string>
+    <string name="btnSave">Save</string>
+    <string name="btnCancel">Cancel</string>
+
+</resources>
